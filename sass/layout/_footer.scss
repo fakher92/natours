@@ -11,6 +11,10 @@
   &__logo-box {
     text-align: center;
     margin-bottom: 8rem;
+
+    @include respond(tab-port) {
+      margin-bottom: 6rem;
+    }
   }
 
   &__logo {
@@ -64,9 +68,9 @@
     font-size: $default-font-size;
     border-top: 1px solid $color-grey-dark;
     padding-top: 2rem;
-    width: 46%;
+    width: 80%;
     float: right;
-    margin-right: 17rem;
+    // margin-right: 17rem;
 
     @include respond(tab-port) {
       width: 100%;
